@@ -16,6 +16,9 @@
 		4EB9224E28F9242E004B160F /* FitnessAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9224D28F9242E004B160F /* FitnessAPPTests.swift */; };
 		4EB9225828F9242E004B160F /* FitnessAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9225728F9242E004B160F /* FitnessAPPUITests.swift */; };
 		4EB9225A28F9242E004B160F /* FitnessAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9225928F9242E004B160F /* FitnessAPPUITestsLaunchTests.swift */; };
+		4EB9226928F9254B004B160F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9226628F9254A004B160F /* .gitignore */; };
+		4EB9226A28F9254B004B160F /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9226728F9254A004B160F /* LICENCE */; };
+		4EB9226B28F9254B004B160F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9226828F9254A004B160F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4EB9225328F9242E004B160F /* FitnessAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB9225728F9242E004B160F /* FitnessAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAPPUITests.swift; sourceTree = "<group>"; };
 		4EB9225928F9242E004B160F /* FitnessAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EB9226628F9254A004B160F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4EB9226728F9254A004B160F /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		4EB9226828F9254A004B160F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		4EB9222A28F9242B004B160F = {
 			isa = PBXGroup;
 			children = (
+				4EB9226628F9254A004B160F /* .gitignore */,
+				4EB9226728F9254A004B160F /* LICENCE */,
+				4EB9226828F9254A004B160F /* README.md */,
 				4EB9223528F9242C004B160F /* FitnessAPP */,
 				4EB9224C28F9242E004B160F /* FitnessAPPTests */,
 				4EB9225628F9242E004B160F /* FitnessAPPUITests */,
@@ -231,6 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB9226B28F9254B004B160F /* README.md in Resources */,
+				4EB9226928F9254B004B160F /* .gitignore in Resources */,
+				4EB9226A28F9254B004B160F /* LICENCE in Resources */,
 				4EB9224328F9242D004B160F /* LaunchScreen.storyboard in Resources */,
 				4EB9224028F9242D004B160F /* Assets.xcassets in Resources */,
 				4EB9223E28F9242C004B160F /* Main.storyboard in Resources */,
