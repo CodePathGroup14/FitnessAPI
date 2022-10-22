@@ -79,9 +79,48 @@ Workout Page         |  Profile Page
 
 ## Schema 
 [This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+Property           |  Type
+:-------------------------:|:-------------------------:
+ objectId |  String
+ authData | Object
+ username | String
+ password | String
+ email | String
+ text | String
+ author | Pointer
+ post | Pointer
+ image | File
+ comments| Array
+
+ 
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Home Screen 
+```
+let query = PFQuery(className: "Posts")
+        query.includeKeys(["author", "comments", "comments.author"])
+        query.limit = 20
+        query.findObjectsInBackground{ (posts, error) in
+            if posts != nil{
+                self.posts = posts!
+                self.tableView.reloadData()
+            }
+        }
+```
+- Network request 
+```
+let url = URL(string: "")!
+let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+let task = session.dataTask(with: request) { (data, response, error) in
+     // This will run when the network request returns
+     if let error = error {
+            print(error.localizedDescription)
+     } else if let data = data {
+            let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+     }
+}
+task.resume()
+```
