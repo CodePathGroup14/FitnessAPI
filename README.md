@@ -1,4 +1,4 @@
-# Fitness_14
+# FitPanda
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -8,16 +8,15 @@
 
 ## Overview
 ### Description
-We are going to build a fitness application which will have some features including Exercise options, workout summary, upload photos, login and logout. It will be mostly used by the fitness enthusiast. User will be able to login and logout to maintain their privacy.If time allowed we will try to implement the user profile as well as user timeline where they will be able to share their fitness stories. 
+We are going to build a fitness application which will have features including Workout summary, Upload photos, SignIn/SignUp and logout. It will be used by the fitness enthusiast. User will be able to login and logout to maintain their privacy. If time permits we will try to implement the user profile as well as user timeline where they will be able to share their fitness stories. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Health
-- **Mobile:** IOS
-- **Story:** Allows users to find workouts/exercises based on their choice.
+- **Mobile:** iOS
+- **Story:** Allows users to keep record of their workout summary.
 - **Market:** Anyone who enjoys to workout or are beginners to exercising.
 - **Habit:** People who go to the gym or exercise are using this to learn how to exercise in the most optimal way.
-- **Scope:** 
+- **Scope:** Fitbit, Strava, Apple Fit
 
 ## Product Spec
 
@@ -25,11 +24,13 @@ We are going to build a fitness application which will have some features includ
 
 **Required Must-have Stories**
 
-* Exercise/ Workout Summary
+* Workout Summary
 * Step Count
 * Calorie Tracker
 * Fitnese Photos
-* Login / Logout
+* Login, SignUp, Logout
+* Launch Screen
+* Appicon with App logo
 
 
 **Optional Nice-to-have Stories**
