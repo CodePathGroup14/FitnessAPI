@@ -62,10 +62,17 @@ We are going to build a fitness application which will have some features includ
 * User Profile Screen
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/wireframe.jpeg" width=600>
+Launch Page         |  LogIn/SignUp Page
+:-------------------------:|:-------------------------:
+<img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/1.jpeg" width=200> | <img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/2.jpeg" width=200>
+
+Workout Page         |  Profile Page
+:-------------------------:|:-------------------------:
+<img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/3.jpeg" width=200> |  <img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/4.jpeg" width=200>
+
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://github.com/CodePathGroup14/FitnessAPI/blob/main/5.jpeg" width=200>
 
 ### [BONUS] Interactive Prototype
 
